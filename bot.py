@@ -18,8 +18,8 @@ SLEEPTIME = 60*15
 COUNT = 50
 NUM_FOLLOWERS = 30
 TOTAL_FOLLOWERS = 5000
-ALL_DATA = '.\\cachedData\\test.txt'
-CURRENT_SET = 'currentSet.txt'
+ALL_DATA = '.\\cachedData\\OldSet.txt'
+CURRENT_SET = '.\\cachedData\\currentSet.txt'
 USED_SET = ALL_DATA
 RUN_BOT = True
 COLLECT_DATA = True
@@ -140,6 +140,8 @@ while(flag==True):
         if(user_response=='thanks' or user_response=='thank you' ):
             flag=False
             print("ROBO: You are welcome..")
+        elif user_response == "":
+            print("\n")
         else:
             if(greeting(user_response)!=None):
                 print("ROBO: "+greeting(user_response))

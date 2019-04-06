@@ -11,6 +11,13 @@ Windows:
 To get the packages:
 pip install -r requirements.txt
 
+In order to collect tweets you need a developer account on twitter.
+Once you set that up make a file key.py and put in it:
+consumer_key = 'your public key' 
+consumer_secret = 'your private key'
+access_token = 'your public access token'
+access_secret = 'your private access token'
+
 To run:
 python bot.py
 
@@ -25,3 +32,4 @@ RUN_BOT = False
 
 To not run Tweet collection in bot.py change:
 COLLECT_DATA = False
+

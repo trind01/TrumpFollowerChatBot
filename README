@@ -1,0 +1,27 @@
+To run in a virtualenv:
+pip install virtualenv
+virtualenv venv
+
+Linux:
+source venv/bin/activate
+
+Windows:
+.\venv\Scripts\activate
+
+To get the packages:
+pip install -r requirements.txt
+
+To run:
+python bot.py
+
+To use recently pulled data in bot.py change:
+USED_SET = CURRENT_SET
+
+To use all data accumulated in bot.py change:
+USED_SET=ALL_DATA
+
+To not run the bot bot.py change:
+RUN_BOT = False
+
+To not run Tweet collection in bot.py change:
+COLLECT_DATA = False

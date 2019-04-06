@@ -1,6 +1,5 @@
 __pycache__/
 key.py
 word-rnn-tensorflow-master/
-env/
+venv/
 cachedData/
-currentSet.txt
